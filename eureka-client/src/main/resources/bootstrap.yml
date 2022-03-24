@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-microservices-demo
+  jpa:
+    hibernate:
+      ddl-auto: none
+#  config:
+#    import: http://localhost:9011/
+  cloud:
+    config:
+      uri: http://localhost:9011
+
+server:
+  port: 8079
